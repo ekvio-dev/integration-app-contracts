@@ -1,0 +1,24 @@
+{
+  "name": "ekvio-dev/integration-app-contracts",
+  "description": "Equeo integration application contracts",
+  "type": "project",
+  "license": "commercial",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Vuylov Dmitry",
+      "email": "vuylov.dmitry@e-queo.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ekvio\\Integration\\Contracts\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
