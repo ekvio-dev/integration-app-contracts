@@ -2,7 +2,7 @@
   "name": "ekvio-dev/integration-app-contracts",
   "description": "Equeo integration application contracts",
   "type": "project",
-  "license": "commercial",
+  "license": "MIT",
   "minimum-stability": "stable",
   "authors": [
     {
