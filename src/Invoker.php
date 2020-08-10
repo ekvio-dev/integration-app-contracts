@@ -11,9 +11,9 @@ interface Invoker
 {
     /**
      * Invoke task
-     * @param array $parameters
+     * @param array $arguments
      */
-    public function __invoke(array $parameters = []);
+    public function __invoke(array $arguments = []);
 
     /**
      * Get invoker name
