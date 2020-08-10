@@ -13,7 +13,7 @@ interface Invoker
      * Invoke task
      * @param array $parameters
      */
-    public function __invoke(array $parameters = []): void;
+    public function __invoke(array $parameters = []);
 
     /**
      * Get invoker name
