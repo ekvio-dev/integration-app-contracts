@@ -14,4 +14,9 @@ interface Extractor
      * @return array
      */
     public function extract(array $options = []): array;
+
+    /**
+     * @return string
+     */
+    public function name(): string;
 }
