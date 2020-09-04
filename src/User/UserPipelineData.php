@@ -40,4 +40,10 @@ interface UserPipelineData
      * @return array
      */
     public function sources(): array;
+
+    /**
+     * @param string $key
+     * @return array
+     */
+    public function dataFromSource(string $key): array;
 }
