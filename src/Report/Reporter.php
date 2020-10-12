@@ -10,9 +10,9 @@ namespace Ekvio\Integration\Contracts\Report;
 interface Reporter
 {
     /**
-     * @param $userPipelineData
+     * @param $data
      * @param array $options
      * @return Collector
      */
-    public function build($userPipelineData, array $options=[]): Collector;
+    public function build($data, array $options=[]): Collector;
 }
