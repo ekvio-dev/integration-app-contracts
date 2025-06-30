@@ -1,16 +1,15 @@
 <?php
-declare(strict_types=1);
 
-namespace Ekvio\Integration\Contracts\Kpi;
+namespace Ekvio\Integration\Contracts\Data;
 
 /**
- * Interface KpiPipelineData
- * @package Ekvio\Integration\Contracts\Kpi
+ * Interface DataLine
+ * @package Ekvio\Integration\Contracts\Data
  */
-interface KpiPipelineData
+interface DataLine
 {
     /**
-     * @param KpiData[] $data
+     * @param Data[] $data
      * @return $this
      */
     public function change(array $data): self;

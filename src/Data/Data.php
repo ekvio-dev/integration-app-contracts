@@ -1,13 +1,12 @@
 <?php
-declare(strict_types=1);
 
-namespace Ekvio\Integration\Contracts\Kpi;
+namespace Ekvio\Integration\Contracts\Data;
 
 /**
- * Interface KpiData
+ * Interface Data
  * @package Ekvio\Integration\Invoker
  */
-interface KpiData
+interface Data
 {
     /**
      * @return string
